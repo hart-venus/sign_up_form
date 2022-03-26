@@ -26,9 +26,26 @@ body {
   opacity: 1;
 }
 
+#logo {
+  width: 10rem;
+  height: auto;
+  padding: 5px;
+}
+
+#title {
+  font-weight: bolder;
+  font-size: 100px;
+  padding: 20px;
+  color: var(--my-color);
+  font-family: 'Roboto', sans-serif;
+}
+
 #header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--dark-color);
-  padding: 10vh;
+  padding: 5vh, 20px;
 }
 
 #credit {
