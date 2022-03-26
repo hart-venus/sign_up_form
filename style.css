@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
 :root {
   --my-color: antiquewhite;
   --dark-color: rgba(48, 0, 0, 0.637);
@@ -15,27 +15,34 @@ body {
   background-color: var(--my-color);
   display: flex;
 }
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  width: 100vh;
+  padding: 10px 30px;
+}
+
 
 .background {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 0.35;
+  flex: 0.6;
   background-image: url("photo.jpg"); background-size: cover; background-repeat:no-repeat; 
-  opacity: 1;
 }
 
 #logo {
   width: 10rem;
   height: auto;
-  padding: 5px;
+  padding: 20px;
 }
 
 #title {
-  font-weight: bolder;
+  font-weight: 800;
   font-size: 100px;
-  padding: 20px;
+  padding: 20px 40px;
   color: var(--my-color);
   font-family: 'Roboto', sans-serif;
 }
@@ -54,4 +61,13 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--my-color);
   padding: 10px 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+legend {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
 }
