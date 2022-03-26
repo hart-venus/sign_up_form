@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html, body {
   margin: 0;
   padding: 0;
 }  
-
+a {
+  color: antiquewhite;
+  font-style: italic;
+}
 body {
+  background-color: antiquewhite;
   display: flex;
 }
 
@@ -13,5 +19,17 @@ body {
   align-items: flex-end;
   justify-content: center;
   flex: 0.35;
-  background-image: url("photo.jpg"); background-size: cover; background-repeat:no-repeat;
+  background-image: url("photo.jpg"); background-size: cover; background-repeat:no-repeat; 
+  opacity: 1;
+}
+
+
+#credit {
+  font-size: 24px;
+  background-color: rgba(48, 0, 0, 0.705);
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 16px;
+  color: antiquewhite;
+  padding: 10px 25px;
 }
