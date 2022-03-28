@@ -21,32 +21,57 @@
     </div>
   </div>
   <div class="form">
+    
     <div id="main-text">
       <p>
-        This is not a real online service! You know you <br>
-        need something like this in your life to help you <br>
-        realize your deepest dreams. Sign up <em>now</em> to get <br>
-        started. <br> <br>
-    
+        This is not a real online service! You know you 
+        need something like this in your life to help you 
+        realize your deepest dreams. Sign up <em>now</em> to get
+        started.
+      </p>
+      <p>
         You <em>know</em> you want to.
-        </p>
+      </p>
     </div>
     <div id="form-input">
-        <form action="/placeholder" method="post">
-          
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+      <div id="header2">Let's do this!</div>
+      <form action="/placeholder" id="myform" method="post">
 
-        </form>
+        <div class="inputbox">
+          <label for="firstName">FIRST NAME</label>
+          <input type="text" id="firstName">
+        </div>
+        
+        <div class="inputbox">
+          <label for="lastName">LAST NAME</label>
+          <input type="text" id="lastName">
+        </div>
+
+        <div class="inputbox">
+          <label for="email">EMAIL</label>
+          <input type="email" id="email">
+        </div>
+
+        <div class="inputbox">
+          <label for="phoneN">PHONE NUMBER</label>
+          <input type="text" id="phoneN">
+        </div>
+
+        <div class="inputbox">
+          <label for="pwd">PASSWORD</label>
+          <input type="password" id="pwd">
+        </div>
+        
+        <div class="inputbox">
+          <label for="Cpwd">CONFIRM PASSWORD</label>
+          <input type="password" id="Cpwd">
+        </div>
+        
+      </form>
+      
     </div>
     <div id="already">
-      
+      <button type="submit" form="myform">Create Account</button>
     </div>
   </div>
 </body>

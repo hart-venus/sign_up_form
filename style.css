@@ -9,7 +9,6 @@ html, body {
 }  
 a {
   color: var(--my-color);
-  font-style: italic;
 }
 body {
   background-color: var(--my-color);
@@ -22,15 +21,19 @@ p {
   width: 100vh;
   padding: 10px 30px;
 }
-
+#header2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
 
 .background {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 0.6;
-  background-image: url("photo.jpg"); background-size: cover; background-repeat:no-repeat; 
+  flex: 0.55;
+  background-image: url("photo.jpg"); background-size: cover; background-repeat:repeat; 
 }
 
 #logo {
@@ -65,7 +68,38 @@ p {
 
 .form {
   display: flex;
+  justify-content: center;
+  flex: 1;
   flex-direction: column;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputbox {
+  margin-right: 80px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+input {
+  width: 400px;
+  height: 20px;
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 18px;
+}
+label {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+}
+
+#form-input {
+  background-color: rgb(192, 206, 155);
+  padding: 32px;
+  filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.459));
 }
 legend {
   font-family: 'Roboto', sans-serif;
