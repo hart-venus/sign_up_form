@@ -2,17 +2,40 @@
 :root {
   --my-color: antiquewhite;
   --dark-color: rgba(48, 0, 0, 0.637);
+  --green: rgb(192, 206, 155);
 }
 html, body {
   margin: 0;
   padding: 0;
 }  
+button {
+  padding: 16px 64px;
+  border-radius: 12px;
+  font-size: 24px;
+  margin: 16px;
+  margin-top: 48px;
+  margin-left: 32px;
+  filter: drop-shadow(0 0 0.15rem rgba(0, 0, 0, 0.274));
+  font-weight: 800;
+  color: var(black);
+  background-color: var(--green);
+}
 a {
   color: var(--my-color);
 }
 body {
   background-color: var(--my-color);
   display: flex;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 32px;
+}
+#already a{
+  color: brown;
+  font-weight: bold;
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -77,6 +100,7 @@ form {
   flex-wrap: wrap;
 }
 .inputbox {
+  border: 0px;
   margin-right: 80px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -97,7 +121,7 @@ label {
 }
 
 #form-input {
-  background-color: rgb(192, 206, 155);
+  background-color: var(--green);
   padding: 32px;
   filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.459));
 }
