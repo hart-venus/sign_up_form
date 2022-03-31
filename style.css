@@ -7,14 +7,22 @@
 html, body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }  
 :focus {
   filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.459));
   border: 8px blue;
 }
+
+.error {
+  border: 8px red;
+} 
+
 button {
   padding: 16px 64px;
-  border-radius: 12px;
+  border-radius: 16px;
+  width: 300px;
+  height: 100px;
   font-size: 24px;
   margin: 16px;
   margin-top: 48px;
@@ -34,7 +42,7 @@ body {
 h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   margin-left: 32px;
 }
 #already a{
@@ -55,7 +63,6 @@ p {
 }
 
 .background {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -105,6 +112,8 @@ form {
 }
 .inputbox {
   border: 0px;
+  width: 40vh;
+  height: auto;
   margin-right: 80px;
   margin-bottom: 20px;
   margin-top: 20px;
