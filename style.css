@@ -11,13 +11,13 @@ html, body {
 }  
 :focus {
   filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.24));
-  border: 8px blue;
+  border: 2px blue;
 }
 
 .error {
-  border: 8px brown;
+  border: 2px solid brown;
 } 
-.wrong {
+#wrong {
   height: 20px;
   color: brown;
   font-family: 'Roboto', sans-serif;
