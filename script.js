@@ -32,6 +32,14 @@ passC.addEventListener("input", function(e){
   }
 })
 
+pass.addEventListener("input", function(e){
+  if (validatePassword()){
+    passC.setCustomValidity("")
+  } else {
+    passC.setCustomValidity("Passwords must match.")
+  }
+})
+
 document.body.onkeyup = updatePassword
 
 updatePassword()
